@@ -1,2 +1,3 @@
 name: Francis Gregorio
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
