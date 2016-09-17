@@ -1,19 +1,30 @@
 ---
 ---
-{% include top.html %}
-
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
 <body>
-  <header role="banner">
-    <h1>fcgregorio</h1>
-  </header>
-
-  <div class="hero-image"></div>
-
-  <div class="wrap">
-    <h1>HI&mdash;I'M FRANCIS AND I HAVE YET TO WRITE</h1>
+<div class="card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h1 class="mdl-card__title-text">Mabuhay!</h1>
   </div>
-
-  {% include footer.html %}
-
+  <div class="mdl-card__supporting-text">
+    HI&mdash;I'M FRANCIS AND I HAVE YET TO WRITE
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a id="tt1" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Blog
+    </a>
+    <div class="mdl-tooltip" data-mdl-for="tt1">
+      Sorry, there's nothing there
+    </div>
+    <a id="tt2" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      About
+    </a>
+    <div class="mdl-tooltip" data-mdl-for="tt2">
+      Nothing there either
+    </div>
+  </div>
+</div>
 </body>
 </html>

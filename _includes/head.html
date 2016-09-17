@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  {% assign title = site.title %}
+  {% if page.title %}
+    {% assign title = title | append: ' :: ' | append: page.title %}
+  {% endif %}
+  <title>{{ title }}</title>
+  {% comment %}{% seo %}{% endcomment %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-cyan.min.css" />
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <link rel="stylesheet" href="/assets/stylesheets/style.css">
+  {% comment %}{% feed_meta %}{% endcomment %}
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!--[if lt IE 9]>
+  <script src="/assets/scripts/html5shiv.min.js"></script>
+  <script src="/assets/scripts/respond.min.js"></script>
+  <![endif]-->
+</head>
