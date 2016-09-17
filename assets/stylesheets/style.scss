@@ -14,13 +14,11 @@ body {
 .card-wide {
 
   position: relative;
-  top: 56px;
+  top: 60px;
 
+  width: 512px;
   margin: auto;
 
-  .mdl-card {
-    width: 512px;
-  }
 
   > .mdl-card__title {
     color: #fff;
